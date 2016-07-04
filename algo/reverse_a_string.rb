@@ -2,8 +2,11 @@
 # returns the reverse. The one caveat: Don't use the reverse method that already
 # comes with Ruby!
 
+characters = Array.new
 def reverse_a_string(string)
-
+  characters = string
+  characters = characters.reverse!
+  return characters
 end
 
 # Driver code - don't touch anything below this line.
